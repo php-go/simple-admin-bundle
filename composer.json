@@ -1,0 +1,25 @@
+{
+    "name": "php-go/simple-admin-bundle",
+    "description": "php-go 框架的一个 bundle，用于快速基于配置建立一个管理后台",
+    "require": {
+        "php-go/db-doctrine": "dev-master",
+        "symfony/form": "~2.5",
+        "symfony/security": "~2.5",
+        "pimple/pimple": "~2.1",
+        "twig/twig": "~1.16",
+        "silex/providers": "2.0.*@dev",
+        "silex/api": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dongww",
+            "email": "dongww@gmail.com"
+        }
+    ]
+}
