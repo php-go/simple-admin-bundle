@@ -1,0 +1,23 @@
+contents:
+#    project_category:
+#        label: '项目类别'
+    project:
+        label: '项目'
+        form:
+            name:             {type: string,   label: '名称'}
+#            introduction:     {type: text,     label: '简介'}
+#            description:      {type: html,     label: '详细内容'}
+            github_url:       {type: string,   label: 'GitHub 上的链接'}
+            site_url:         {type: string,   label: '官方网站'}
+#            project_category: {type: relation, label: '类别'}
+        form_validate:
+            name:         {required: true}
+            introduction: {required: true}
+            description:  {required: true}
+            github_url:   {required: true}
+            site_url:     {required: true}
+        list:
+            display: [name, introduction, created_at, updated_at]
+            search:  [name, introduction, description]
+            sort:    'created_at desc'
+            limit:   10

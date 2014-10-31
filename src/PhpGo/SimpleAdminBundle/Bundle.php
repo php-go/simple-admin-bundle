@@ -7,7 +7,7 @@
 
 namespace PhpGo\SimpleAdminBundle;
 
-use Dongww\Framework\Core\BundleAbstract;
+use PhpGo\Framework\Core\BundleAbstract;
 
 class Bundle extends BundleAbstract
 {

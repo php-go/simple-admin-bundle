@@ -1,4 +1,6 @@
 <?php
-$container['simpleform.custom_fields'] = [
+$app['simpleform.custom_fields'] = [
 
 ];
+
+$bundle['routes_prefix'] = '/admin';
